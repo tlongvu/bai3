@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aligned Inputs and Labels</title>
+</head>
+<body>
+    <center>
+    <div class="header" style="width: 40%;" align="center">
+        <h1>
+            Pete's Pizza Delivery
+        </h1>
+        <h2>
+            Online Order Form
+        </h2>
+    
+        <span>
+            *required fields 
+        </span>
+        <br><br><br><br>
+    <form action="" style="font-size: 30px;">
+        <fieldset>
+            <legend>Customer details</legend>
+            <table border="0" cellpadding="10" cellspacing="0">
+                <tr>
+                  <td>
+                    <label for="input1">*Name</label>
+                  </td>
+                  <td>
+                    <input type="text" id="input1">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="input2">*Address</label>
+                  </td>
+                  <td>
+                    <input type="text" id="input2" >
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="input3">*Town/City</label>
+                  </td>
+                  <td>
+                    <input type="text" id="input3">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="input3">Postcode</label>
+                  </td>
+                  <td>
+                    <input type="text" id="input3">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="input3">*Tel</label>
+                  </td>
+                  <td>
+                    <input type="text" id="input3">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="input3">*EMail</label>
+                  </td>
+                  <td>
+                    <input type="text" id="input3">
+                  </td>
+                </tr>
+              </table>
+        </fieldset>
+    </form>
+</div>
+
+<div align="center" class="box">
+    <table width>
+        <tr>
+            <td width="200px" height="200px">
+                <form action="" style="font-size: 31px;">
+                    <fieldset >
+                        <legend>Topping*</legend>
+                        <label>
+                            <input type="radio" name="topping" value="male">
+                            Male
+                            </label>
+                            <br>
+                            <label>
+                            <input type="radio" name="topping" value="female">
+                            Female
+                            </label>
+                            <br>
+                            <label>
+                            <input type="radio" name="topping" value="other">
+                            Other
+                            </label>
+                    </fieldset>
+                </form>
+            </td>
+            <td>
+                <form action="" style="font-size: 31px;">
+                    <fieldset>
+                        <legend>
+                            *size</legend>
+                        <label>
+                            <input type="radio" name="size" value="small">
+                            small
+                            </label>
+                            <br>
+                            <label>
+                            <input type="radio" name="size" value="Medium">
+                            Medium
+                            </label>
+                            <br>
+                            <label>
+                            <input type="radio" name="size" value="Large">
+                            Large
+                            </label>
+                    </fieldset>
+                    
+                </form>
+            </td>
+            <td>
+                <form action=""  style="font-size:25px;">
+                    <fieldset>
+                        <legend>Extra</legend>
+                        <label>
+                            <input type="checkbox" name="gender" value="mushrooms">
+                            Mushrooms
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox" name="gender" value="greenpeppers">
+                            Greenpeppers
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox" name="gender" value="anchovies">
+                            Anchovies
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox" name="gender" value="extracheese">
+                            Extra cheese
+                            </label>
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+<br>
+<form action="" style="width: 40%; font-size: 25px;">
+    <fieldset>
+        <legend>
+            Delivery
+        </legend>
+        <label for="datetime">
+            preferred delivery time: 
+            <input type="date" name="datetime" id="datetime">
+        </label>
+        <br><br>
+        <label for="instruct" >
+            delivery instruction: 
+            <input style="width: 500px; height: 50px;" type="text" name="instruct" id="instruct">
+        </label>
+    </fieldset>
+</form>
+<br><br>
+<form action="">
+    <input type="submit" value="submit order">
+</form>
+</center>
+</body>
+</html>
